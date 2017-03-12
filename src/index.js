@@ -4,7 +4,7 @@ import filestack from 'filestack-js';
 import Container from 'components/Container';
 import '../dist/css/style.css';
 
-const client = filestack.init('Anj637BlDTyMhOXjonqruz');
+const client = filestack.init('YOUR_API_KEY');
 console.log(filestack.version);
 
 render(
